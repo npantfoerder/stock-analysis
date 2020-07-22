@@ -8,15 +8,15 @@ I wrote a VBA script analyzing stock data and created buttons that run analysis 
 ## Results
 - Running analysis for all stocks in the year 2018 showed that only two companies, ENPH and RUN, had positive returns. DAQO's closing price decreased the most by about 63% from the beginning of the year to the end of the year. In the 'Total Daily Volume' column, it can be seen that DQ stock was traded the most and AY stock was traded the least. The refactored VBA script ran in about 0.19 seconds, while the original script took about 1.42 seconds.
 
-![](https://github.com/npantfoerder/stock-analysis/blob/master/resources/VBA_Challenge_2018_Output.png)
+<img src="https://github.com/npantfoerder/stock-analysis/blob/master/resources/VBA_Challenge_2018_Output.png" width="350">
 
-![](https://github.com/npantfoerder/stock-analysis/blob/master/resources/VBA_Challenge_2018.png)
+<img src="https://github.com/npantfoerder/stock-analysis/blob/master/resources/VBA_Challenge_2018.png" width="350">
 
 - In the year 2017 all companies except for TERP had a positive return. DAQO's closing price increased the most by about 199% from the beginning to the end of the year. Here 'Total Daily Volume' column tells us that SPWR stock was traded the most while DQ stock was traded the least. The refactored VBA script ran in about 0.18 seconds and the original code took about 1.42 seconds.
 
-![](https://github.com/npantfoerder/stock-analysis/blob/master/resources/VBA_Challenge_2017_Output.png)
+<img src="https://github.com/npantfoerder/stock-analysis/blob/master/resources/VBA_Challenge_2017_Output.png" width="350">
 
-![](https://github.com/npantfoerder/stock-analysis/blob/master/resources/VBA_Challenge_2017.png)
+<img src="https://github.com/npantfoerder/stock-analysis/blob/master/resources/VBA_Challenge_2017.png" width="350">
 
 ## Summary
 
