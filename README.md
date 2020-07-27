@@ -3,7 +3,7 @@
 ## Overview of Project
 
 ### Purpose
-Steve is looking into green energy stocks to help his parents diversify their investments and needs help analyzing the data. I wrote a VBA script to analyze the data and created buttons that run analytics and output the total daily volume and return of various companies. By refactoring my code I was able to create a more efficient version to help my customer analyze large sets of data in less time.
+Steve is looking into green energy stocks to help his parents diversify their investments and needs help analyzing some data. I wrote a VBA script to analyze the data and created buttons that run analytics and output the total daily volume and return of various companies. By refactoring my code I was able to create a more efficient version to help my customer analyze large sets of data in less time.
 
 ## Results
 
@@ -15,7 +15,7 @@ Steve is looking into green energy stocks to help his parents diversify their in
 <img src="https://github.com/npantfoerder/stock-analysis/blob/master/resources/VBA_Challenge_2018.png" width="350">
 
 ### 2017
-- In the year 2017 all stocks except for TERP had positive returns. Daqo's closing price increased the most by 199.4% from the beginning to the end of the year. Here 'Total Daily Volume' column tells us that SPWR stock was traded the most while DQ stock was traded the least. The refactored VBA script ran in about 0.18 seconds and the original code took about 1.42 seconds.
+- In the year 2017 all stocks except for TERP had positive returns. Daqo's closing price increased the most by 199.4% from the beginning to the end of the year. Here the 'Total Daily Volume' column tells us that SPWR stock was traded the most, while DQ stock was traded the least. The refactored VBA script ran in about 0.18 seconds and the original code took about 1.42 seconds.
 
 <img src="https://github.com/npantfoerder/stock-analysis/blob/master/resources/VBA_Challenge_2017_Output.png" width="350">
 
@@ -29,4 +29,4 @@ Steve is looking into green energy stocks to help his parents diversify their in
 ### Advantages and Disadvantages of Refactoring Code
 - In general, refactoring code is a useful way of increasing efficiency and decreasing run time. It can also help make code easier to read for future users. A disadvantage of refactoring is the possibility of having to spend time debugging new errors that are created due to the changes you make in your code.
 
-- For the data at hand, the refactored code decreased the runtime by about 1.23 seconds. Although this might not seem like a big improvement, if we ran the same program on a much larger data set then we would be saving ourselves a lot of time. Meanwhile, one advantage of the original VBA script is it only uses one array and has nested for-loops. This makes the code easier to read and understand for some programmers, but with detailed and descriptive commenting this can also be avoided. 
+- For the data at hand, the refactored code decreased the runtime by about 1.23 seconds. Although this might not seem like a big improvement, if we ran the same program on a much larger data set then we would be saving ourselves a lot of time. Meanwhile, one advantage of the original VBA script is that it only uses one array and has nested for-loops. This makes the code easier to read and understand for some programmers, but with detailed and descriptive commenting this can also be avoided. 
